@@ -1,7 +1,7 @@
 import { createRoot } from "react-dom/client";
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls, Stars } from "@react-three/drei";
-import { Physics, usePlane, useBox } from "@react-three/cannon";
+import { Physics } from "@react-three/cannon";
 import ImagePlane from "./ImagePlane";
 import "./styles.css";
 
